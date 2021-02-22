@@ -48,6 +48,9 @@ x = mean( m' );
 
 % 4f.  Redefine m (see above). Make x equal to the number of elements of m smaller than -1.5
 
+m = randn( 4, 25 );
+x = numel(m>-1.5)
+
 % 4g.  Make x equal to all the elements of m that are less than -1 or
 % greater than .5
 
